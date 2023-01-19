@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge display</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+      .text1,.text2 {
+        display: inline-block;
+        width: 150px;
+        color: black;
+        padding: 5px 7px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        border-color:rgba(0, 0, 0, 0.085) ;
+      }
+      .text3 {
+        display: block;
+        width: 320px;
+        border-radius: 8px;
+        padding: 5px 7px;
+        margin-bottom: 10px;
+        border-color:rgba(0, 0, 0, 0.085) ;
+      }
+
+      .button {
+        background-color: blue;
+        padding: 20px 143px;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        cursor : pointer;
+        transition : opacity 0.15s;
+      }
+
+      .button:active {
+        opacity: 0.5;
+      }
+    </style>
+</head>
+<body>
+    <input class="text1" placeholder="First name" type="text">
+    <input class="text2" placeholder="Last name" type="text">
+    <input class="text3" placeholder="Email" type="text">
+    <button class="button">Sign Up</button>
+</body>
+</html>

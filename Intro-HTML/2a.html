@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+       .pag {
+        margin-right: 3px;
+        margin-left: 2px;
+       }
+       .back {
+        margin-right: 5px;
+        padding: 5px 7px;
+       }
+       .next {
+        margin-left: 5px;
+        padding: 5px 7px;
+       }
+
+       .estica{
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 5px 8px;
+        margin: auto;
+        transition: padding 1s;
+       }
+
+       .estica:hover {
+        padding: 15px 35px;
+       }
+
+       .one-two-three {
+        background-color: green;
+        color: white;
+        border: none;
+        margin-right: 7px;
+        margin-left: 7px;
+        padding: 3px 8px;
+        transition: padding 1s, margin 1s;
+       }
+       #one:hover {
+          margin: 0px;
+          padding: 3px 15px;
+       }
+       #two:hover {
+          margin: 0px;
+          padding: 3px 15px;
+       }
+       #three:hover {
+          margin: 0px;
+          padding: 3px 15px;
+       }
+
+       .click {
+         background-color: green;
+         border: none;
+         color: white;
+         box-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.44);
+       }
+       .click:active{
+         margin: 3px;
+         box-shadow: none;
+       }
+    </style>
+</head>
+<body>
+    <button class="back">Back</button>
+    <a href="#" class="pag">1</a>
+    <a href="#" class="pag">2</a>
+    <a href="#" class="pag">3</a>
+    <a href="#" class="pag">4</a>
+    <a href="#" class="pag">5</a>
+    <button class="next">Next</button>
+
+    <p>outro</p>
+    <button class="estica">Stretch</button>
+    <p>outro</p>
+    <button id="one" class="one-two-three">One</button>
+    <button id="two" class="one-two-three">Two</button>
+    <button id="three" class="one-two-three">Three</button>
+    <p>another one</p>
+    <button class="click">3D click</button>
+</body>
+</html>

@@ -1,0 +1,71 @@
+p {
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.textCeo {
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.textStats {
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 20px;
+}
+.marques {
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 20px;
+}
+.video-descrição {
+    font-size :14px;
+    color: #606060;
+    width: 280px;
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+.apple {
+    background-color: #e34140;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 14px;
+    text-align: center;
+    padding: 16px;
+}
+.span-example:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tahoma {
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.verdana {
+    font-family: Verdana;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.verdana2 {
+    color: gray;
+    font-family: Verdana;
+    margin-bottom: 50px;
+}
+.verdana3 {
+    font-family: verdana;
+    width: 300px;
+}
+.get {
+    background-color: green;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 7px 15px;
+}

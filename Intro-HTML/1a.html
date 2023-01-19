@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <style>
+        .link:hover {
+            color: red;
+        }
+
+        .link:active {
+            color: yellowgreen;
+        }
+        #price{
+            color: rgb(0,118,0);
+            font-weight: bold;
+        }
+        .add{
+            height: 25px;
+            width: 110px;
+            background-color: rgb(255,216,20);
+            border: none;
+            border-radius: 15px;
+            transition: background-color 0.2s,opacity 0.2s;
+        }
+
+        .add:hover{
+            background-color:rgb(200, 167, 6) ;
+        }
+        .add:active {
+            opacity: 0.6;
+        }
+        .buy {
+            height: 25px;
+            width: 110px;
+            background-color: rgb(255,164,28);
+            border: none;
+            border-radius: 15px;
+            transition: background-color 0.2s, opacity 0.2s;
+        }
+
+        .buy:hover {
+            background-color:rgb(205, 128, 11) ;
+        }
+
+        .buy:active {
+           opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <a class="link" href="https://www.amazon.com.br/?&tag=hydrbrabk-20&ref=pd_sl_7rwd1q78df_e&adgrpid=79547423725&hvpone=&hvptwo=&hvadid=591863875878&hvpos=&hvnetw=g&hvrand=9973396417758070839&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=kwd-10573980&hydadcr=26346_11691057&gclid=Cj0KCQiAq5meBhCyARIsAJrtdr7EzGxeZhKUuHEczvNXMhUuhSLLzraXE8Lt7v6nec55OSk8QdGn47gaArIMEALw_wcB" target="_blank">Back to Amazon</a>
+    <h2>Nike Black Running Shoes</h2>
+    <p id="price">$39 - in stock</p>
+    <p>Free delivery tomorrow</p>
+    <button class="add">Add to Cart</button>
+    <button class="buy">Buy now</button>
+</body>
+</html>
